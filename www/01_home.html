@@ -1,0 +1,19 @@
+<ons-navigator title="Navigator" var="myNavigator">
+<ons-page>
+    <ons-toolbar>
+        <div class="left">
+            <ons-toolbar-button ng-click="app.slidingMenu.toggleMenu()"><ons-icon icon="bars"></ons-icon></ons-toolbar-button>
+        </div>
+        <div class="center">home</div>
+    </ons-toolbar>
+
+
+    
+    <div style="text-align: center">
+        <h4>ようこそ</h4>
+        <ons-button ng-click="app.slidingMenu.toggleMenu()">勤怠入力</ons-button>
+        <ons-button ng-click="app.slidingMenu.setMainPage('0200_sinsei.html', {closeMenu: true})">勤怠申請</ons-button>
+
+    </div>
+</ons-page>
+</ons-navigator>

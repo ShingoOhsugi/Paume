@@ -1,0 +1,44 @@
+<ons-page>
+    <ons-toolbar>
+        <div class="left">
+            <div class="left"><ons-back-button>Back</ons-back-button></div>
+        </div>
+        <div class="center">有休申請(当日)</div>
+    </ons-toolbar>
+    
+    <div style="text-align: center">
+        <ul class="list">
+          <li class="list__header">
+            申請理由
+          </li>
+          <li class="list__item list__item--tappable">
+            <div class="list__item__left">
+              <label class="radio-button">
+                <input type="radio" id="r1" class="radio-button__input" name="r" checked="checked">
+                <div class="radio-button__checkmark"></div>
+              </label>
+            </div>
+            <label for="r1" class="list__item__center">
+              体調不良
+            </label>
+          </li>
+          <li class="list__item list__item--tappable">
+            <div class="list__item__left">
+              <label class="radio-button">
+                <input type="radio" id="r2" class="radio-button__input" name="r">
+                <div class="radio-button__checkmark"></div>
+              </label>
+            </div>
+            <label for="r2" class="list__item__center">
+                  <textarea class="textarea textarea--transparent" placeholder="その他理由"></textarea>
+            </label>
+          </li>
+        </ul>
+        <br />
+        
+        <ons-button class="button button--large" ng-click="">申 請</ons-button>
+
+    </div>
+        
+
+</ons-page>
